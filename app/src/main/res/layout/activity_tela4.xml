@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DC040405"
+        android:background="#6FF66F"
         tools:context=".Tela2Activity">
 
         <ImageView
@@ -28,12 +28,12 @@
             android:id="@+id/btnvoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FF0000"
             android:fontFamily="arial"
             android:text="Voltar"
-            android:textColor="@color/black"
             android:textAllCaps="true"
-            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
             android:layout_height="124dp"
             android:fontFamily="arial"
             android:text="O ODS 3 visa garantir uma vida saudável e promover o bem-estar para todas as pessoas de qualquer idade, garantindo assim o desenvolvimento sustentável. Entre suas várias metas merecem destaque a redução da taxa de mortalidade materna e acabar com as mortes evitáveis de recém-nascidos e crianças menores de 5 anos."
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.47"

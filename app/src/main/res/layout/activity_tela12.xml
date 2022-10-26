@@ -9,7 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#DC040405"
+        android:background="#6FF66F"
         tools:context=".Tela2Activity">
 
         <ImageView
@@ -28,12 +28,12 @@
             android:id="@+id/btnvoltar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFFFFF"
+            android:backgroundTint="#FF0000"
             android:fontFamily="arial"
             android:text="Voltar"
             android:textAllCaps="true"
-            android:textColor="#000000"
-            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
             android:layout_height="114dp"
             android:fontFamily="arial"
             android:text="ODS 11 tem como objetivo tornar as cidades e os assentamentos humanos inclusivos, seguros, resilientes e sustentáveis. Até 2030, garantir o acesso de todos à habitação segura, adequada e a preço acessível, e aos serviços básicos e urbanizar as favelas"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.47"

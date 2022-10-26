@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DC040405"
+    android:background="#6FF66F"
     tools:context=".Tela2Activity">
 
     <ImageView
@@ -23,12 +23,12 @@
         android:id="@+id/btnvoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="#FFFFFF"
+        android:backgroundTint="#FF0000"
         android:fontFamily="arial"
         android:text="Voltar"
         android:textAllCaps="true"
-        android:textColor="#000000"
-        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:layout_height="71dp"
         android:fontFamily="arial"
         android:text="O ODS 1 trata da pobreza, cuja erradicação é entendida pelo Brasil como ponto central para toda a estratégia de desenvolvimento de sustentável. A meta 1.1, e também mais urgente, é a erradicação da pobreza extrema."
-        android:textColor="#FFFFFF"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
